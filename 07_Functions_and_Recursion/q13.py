@@ -12,4 +12,4 @@ def make_album(album_name, album_title, no_of_songs=None):
 
 print(make_album('Thriller','Michael Jackson'))
 print(make_album('Scorpion','Drake'))
-print(make_album('After Hours','The Weeknd', 5))
+print(make_album('After Hours','The Weekend', 5))
