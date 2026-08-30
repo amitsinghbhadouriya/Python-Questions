@@ -5,3 +5,17 @@ def make_shirt(size, text):
     
 make_shirt(34, "Good boy")
 make_shirt(size = 32, text = "Good girl")
+
+
+# Modify the make_shirt() function so that shirts are large by default with a message that reads I Love Python. Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.
+def make_shirt(size="large", text="I Love Python"):
+    print(f"The size of t-shirt is {size} and the message is {text}")
+
+# large with default
+make_shirt()
+
+# Medium with default
+make_shirt(size="Medium")
+
+# Any size with different message
+make_shirt(size="Small", text="Good boy")
