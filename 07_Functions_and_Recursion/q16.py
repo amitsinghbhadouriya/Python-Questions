@@ -7,4 +7,4 @@ def sandwich(*toppings):
 
 sandwich('corn')
 sandwich('corn', 'cheese')
-sandwich('corn', 'panner', 'mayo') 
+sandwich('corn', 'panner', 'cheese')
